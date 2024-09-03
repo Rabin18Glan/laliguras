@@ -2,7 +2,7 @@ import React from 'react';
 import 'animate.css'
 const Hero = () => {
   return (
-    <section className="relative bg-cover bg-center bg-white  text-center py-32 px-8 md:px-32 lg:px-64 flex items-center justify-around" >
+    <section className="relative bg-cover bg-center bg-white  text-center md:py-32 px-8 md:px-32 lg:px-64 py-10  flex flex-col-reverse md:flex-row items-center justify-around" >
      
     <div>
     <h1 className="text-4xl md:text-6xl font-extrabold text-yellow-600 mb-4 animate__animated animate__fadeIn animate__delay-0.5s">Honey from Laliguras Bee Farm</h1>
@@ -13,7 +13,7 @@ const Hero = () => {
           Learn More
         </a>
     </div>
-        <div className="mt-12 animate__animated animate__fadeIn animate__delay-2s">
+        <div className="md:mt-12  animate__animated animate__fadeIn md:animate__delay-2s animate__delay-0.2s">
           <img src="/laliguras/honeyback.png" alt="Honeycomb" className="min-w-60  rounded-lg "/>
         </div>
     </section>
