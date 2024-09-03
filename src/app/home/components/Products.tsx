@@ -1,9 +1,9 @@
 import React from 'react';
 
 const products = [
-  { name: "Acacia Honey", price: "$12.95", imgSrc: "/ascia.jpeg", category: "Honey", rating: 4.5 },
-  { name: "Honeycomb", price: "$15.95", imgSrc: "/honeycomb.png", category: "Honey", rating: 4.7 },
-  { name: "Wildflower Honey", price: "$13.95", imgSrc: "/wildflowerhoney.jpeg", category: "Honey", rating: 4.6 },
+  { name: "Acacia Honey", price: "$12.95", imgSrc: "/laliguras/ascia.jpeg", category: "Honey", rating: 4.5 },
+  { name: "Honeycomb", price: "$15.95", imgSrc: "/laliguras/honeycomb.png", category: "Honey", rating: 4.7 },
+  { name: "Wildflower Honey", price: "$13.95", imgSrc: "/laliguras/wildflowerhoney.jpeg", category: "Honey", rating: 4.6 },
 ];
 
 const renderStars = (rating:number) => {

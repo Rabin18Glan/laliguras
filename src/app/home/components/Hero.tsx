@@ -14,7 +14,7 @@ const Hero = () => {
         </a>
     </div>
         <div className="mt-12 animate__animated animate__fadeIn animate__delay-2s">
-          <img src="/honeyback.png" alt="Honeycomb" className="min-w-60  rounded-lg "/>
+          <img src="/laliguras/honeyback.png" alt="Honeycomb" className="min-w-60  rounded-lg "/>
         </div>
     </section>
   );
