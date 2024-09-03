@@ -1,9 +1,9 @@
 import React from 'react';
 
 const navLinks = [
-  { name: "Home", href: "/home" },
-  { name: "About Us", href: "/about-us" },
-  { name: "Contact", href: "/contact" }
+  { name: "Home", href: "/laliguras/home" },
+  { name: "About Us", href: "/laliguras/about-us" },
+  { name: "Contact", href: "/laliguras/contact" }
 ];
 
 const Header = () => {

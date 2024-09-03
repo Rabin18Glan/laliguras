@@ -13,7 +13,7 @@ const products = [
         id: 2,
         title: "Beehives",
         description: "Our beehives are crafted from the finest wood, designed to offer your bees a safe and productive home.",
-        image: "/beehives.jpeg",
+        image: "laliguras/beehives.jpeg",
         bgColor: "bg-orange-500",
         buttonColor: "bg-white text-orange-500 hover:bg-orange-400",
     },
