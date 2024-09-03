@@ -1,16 +1,12 @@
 {
   "name": "honey-website",
-  "homepage": "https://rabin18glan.github.io/laliguras",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-     "predeploy": "next build  && next export",
-    "deploy": "gh-pages -d out"
-
+    "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.3",
