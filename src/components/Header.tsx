@@ -14,7 +14,7 @@ const Header = () => {
     <header className="bg-white shadow-lg sticky w-full top-0 left-0 z-50">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         {/* Logo */}
-        <a href='/home' className="text-3xl font-extrabold text-yellow-600">
+        <a href='/laliguras/home' className="text-3xl hover:text-yellow-800 font-extrabold text-yellow-600">
           Laliguras
         </a>
 
